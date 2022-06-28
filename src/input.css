@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.left-side {
+	@apply bg-blue-darker py-24 px-8 md:flex-1 md:h-screen md:p-12 md:justify-center lg:p-16 xl:p-24 flex flex-col;
+}
