@@ -7,9 +7,17 @@
 }
 
 .message {
-	@apply mt-1 ml-4 lg:text-2xl italic;
+	@apply mt-1 ml-4 lg:text-2xl italic text-black;
 }
 
 .img {
 	@apply rounded-full w-12 h-12;
+}
+
+.rightcol {
+	background: #b4cdec url('https://www.transparenttextures.com/patterns/arabesque.png');
+}
+
+.glassmorph {
+	@apply bg-white bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 border border-gray-100;
 }
