@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/output.css">
-    <title>Document</title>
+    <title>TailwindCSS Layout 1</title>
 </head>
 
 <body class="bg-grey-lighter">
@@ -15,7 +15,19 @@
             <h1 class="text-blue text-center md:text-left xl:text-5xl">The TailwindCSS Tutorial</h1>
             <p class="text-white text-center mt-3 sm:text-lg md:text-left md:text-xl xl:text-3xl">From DesignCourse</p>
         </div>
-        <div class="bg-black py-12 px-8 flex-1 flex-col flex justify-center md:h-screen">qqwwqeqww</div>
+        <div class=" py-12 px-8 flex-1 flex-col flex justify-center md:h-screen">
+            <div class="bg-white inline-flex p-6 rounded-lg shadow-md md:-ml-12">
+                <!-- <div class="bg-blue-500 rounded-full w-12 h-12"></div> -->
+                <img src="/src/imagens/avatar-c1e1e1a5f4ed57ee0602b829ba43da1c.jpg" class="img" alt="">
+                <p class="message">"It's truly awesome, man!!"</p>
+            </div>
+            <div class="bg-white inline-flex p-6 rounded-lg mt-8 shadow-md md:ml-8">
+                <!-- <div class="bg-blue-500 rounded-full w-12 h-12"></div> -->
+                <img src="/src/imagens/avatar-e087fe71d597fe696b67a78846158feb.jpg" class="img" alt="">
+                <p class="message">"Definitely, this is awesome!!"</p>
+            </div>
+            <button class="hover:text-red-900 hover:bg-yellow-400">Click here</button>
+        </div>
     </div>
 </body>
 
